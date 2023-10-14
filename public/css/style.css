@@ -1,0 +1,95 @@
+body{
+    background: #434C56;
+    font-family: arial;
+    color:#2c3e50;
+    }
+    .card-cap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+      .cap{
+        font-size: 2rem;
+        font-weight: bold;
+        color: #434C56;
+      }
+      .card-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-block: 2rem;
+        box-sizing: content-box;
+      }
+      .cards{
+        display: flex;
+        align-items: center;
+        height: auto;
+        gap: 1rem;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card-wrapper{
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+        width: 225px;
+        /* max-width: 275px; */
+        border-radius: 10px;
+        position: relative;
+        transition: .2s ease;
+        color: #a3b5c4;
+        box-shadow: 0 0 5px #434C56;
+        position: relative;
+        margin-block: 1rem;
+      }
+      .card:hover .card-title{
+        color: #434C56;
+      }
+      .card-image{
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+      }
+      .card-desc{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+      }
+      .pelajari-btn{
+        padding-block: 7px;
+        border: 1px #434C56 solid;
+        background-color: transparent;
+        border-radius: 8px;
+        transition: .2s ease;
+        box-sizing: content-box;
+        font-size: 1rem;
+      }
+      .pelajari-btn:hover{
+        background-color: #434C56;
+      }
+      .pelajari-btn:hover > a{
+        color: #fff;
+      }
+      .pelajari-btn > a{
+        color: #434C56;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+      }
+      .card-title{
+        width: auto;
+        min-height: 30px;
+        max-height: 10px;
+        text-align: center;
+        overflow: hidden;
+        font-weight: bold;
+        color: #434C56;
+      }
