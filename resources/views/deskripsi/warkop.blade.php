@@ -49,10 +49,10 @@
             <div class="card" style="width: 40rem;">
               <div class="card-body">
               @foreach($links as $item)
-                <h5 class="card-title">{{$item['judul_film']}}</h5>
-                <p class="card-text">{{$item['deskripsi']}}</p>
+                <h5 class="card-title" style="color: black">{{$item['judul_film']}}</h5>
+                <p class="card-text" style="color: black;">{{$item['deskripsi']}}</p>
                 <br>
-                  <a href="https://colab.research.google.com/drive/1HiVvIjkAtJU-ZZ-dnMs494UHBENy7V3v" class="btn btn-custom"><b>Tonton</b></a>
+                  <a href="https://youtu.be/lmuNabammwk?si=Y1uRFBI3l2UjkfDn" class="btn btn-custom"><b>Tonton</b></a>
                   @endforeach
               </div>
             </div>
